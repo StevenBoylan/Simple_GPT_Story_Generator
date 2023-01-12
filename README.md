@@ -4,7 +4,8 @@ This is a very simple python script to generate a short children's story
 
 ## Description
 
-This is the first script I wrote in Python to tests how the language works. It captures input from the user, then adds these variables to a pre-formatted prompt. Using the OpenAI API it sends this prompt and prints the output. It's as simple as that!
+This is the first script I wrote in Python to tests how the language works. It captures input from the user, then adds these variables to a pre-formatted prompt. Using the OpenAI API it sends this prompt to OpenAPI GPT3 and then prints the output. </br>
+It's as simple as that!
 
 ## Example output:
 
