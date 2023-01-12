@@ -2,7 +2,7 @@
 import openai
 
 # Define the API key
-openai.api_key = "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"
+openai.api_key = "sk-ADD_YOUR_API_KEY_HERE"
 
 # Set variables for the Good Character, the Bad Character,
 # the task the good character has to achieve and what the bad character has to to to stop this happening
