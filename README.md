@@ -1,4 +1,4 @@
-# Children's Story Generator
+# #1 Children's Story Generator
 
 This is a very simple python script to generate a short children's story
 
@@ -56,3 +56,59 @@ Me
 
 Inspiration, code snippets, etc.
 * [OpenAPI](https://openai.com/api/)
+
+---
+
+# #2 The $Billion Start-up Idea Generator
+
+This is a very simple python script to generate a billion-dollar startup idea from a GPT3 prompt
+
+## Description
+
+This is basically a version of the first script I wrote in Python - to test how the language works. It captures input from the user, then adds these variables to a pre-formatted prompt. Using the OpenAI API it sends this prompt and prints the output. </br>
+It's as simple as that!
+
+## Example output:
+
+As there is no API key included in this code, you will not be able to test it until you have your own key. This is an example of the inputs and generated output:
+
+> *- Who do you want to help?: *E.g. 'Astronauts' or 'The Elderly' etc.* **Astronauts** </br>
+> *- What do you want to help them do? *E.g. 'Date other astronauts' or 'Get out of the house more' etc.* **Date other astronauts**</br>
+> *- Using what technology, *E.g. ‘An App’, ‘a platform’, ‘SaaS’, ‘A Smart Assistant’ etc* **An App**</br>
+> *- What will the technology do for them? *E.g. 'Find other astronauts floating near their space-station'* **Find other astronauts near their space-station** </br>
+
+>**SpaceMingle:** The world's first dating app dedicated to connecting astronauts with other astronauts. SpaceMingle allows astronauts to search for potential matches based on their location, interests, and preferences. With a simple swipe of the finger, astronauts can find compatible matches and connect with other astronauts in their area. </br>
+>The app also provides users with the latest news from the space station and upcoming events related to space exploration. SpaceMingle is the perfect way for astronauts to find love and connection while orbiting the earth!</br>
+
+This is another example from an earlier version:
+>*- Who do you want to help?* **Parents**</br>
+>*-What do you want to help them do?* **Get their children to sleep**</br>
+>*-using what technology, e.g. SaaS, a platform, app etc **An app**</br>
+>*-What will the technology do for them? **Give them advice**</br>
+
+
+> **The Sleepy Parent App** would provide parents with personalized advice to help them get their children to sleep. The app would feature a variety of sleep-promoting activities and resources such as bedtime stories, yoga poses, breathing exercises, lullabies and white noise playlists, along with tips on creating a comfortable sleep environment for their kids. </br>
+>It would also provide parents with personalized guidance on the best ways to manage their children's sleep habits, including establishing consistent bedtimes and wake times, managing technology use before bedtime, and responding appropriately when their children wake up in the middle of the night. </br>
+>Finally, the app would offer access to a forum where parents can share ideas and experiences as they work together to improve their children's sleep.</br>
+
+
+
+
+### Dependencies
+
+You will need to import the openai library
+
+### Installing
+
+The API key in this repository has been removed - you will need to add your own key to get it to work.
+
+
+## Authors
+
+Me
+
+## Acknowledgments
+
+Inspiration, code snippets, etc.
+* [OpenAPI](https://openai.com/api/)
+
